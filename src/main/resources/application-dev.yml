@@ -1,0 +1,30 @@
+# Enabling H2 Console
+spring:
+  h2:
+    console:
+      enabled:true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: 'sa'
+    password: 'sa'
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+
+connections:
+  wsdl: http://192.168.1.28/mobileapp_v14/mobileAppWS.asmx?WSDL
+#  username: cbzMobile
+#  password: P@ssW0rd
+
+  username: CST
+  password: CST@Z0Z4PA22
+
+
+
+
+cbz:
+  baseUrl: http://192.168.1.28/mobileapp_v14/mobileAppWS.asmx?WSDL
+  username: dchiputura
+  password: Dchiputura@2023
+  system: Flexcube
+
