@@ -1,7 +1,6 @@
 package com.example.cbzcstsowbillpaymentsintegration.controller;
 
 import com.example.cbzcstsowbillpaymentsintegration.dtos.requestdto.dstvrequest.DstvRequest;
-import com.example.cbzcstsowbillpaymentsintegration.dtos.requestdto.studentrequestdto.StudentRequestDto;
 import com.example.cbzcstsowbillpaymentsintegration.service.DstvPaymentService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.RequiredArgsConstructor;
@@ -9,11 +8,9 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "*")
 @RequiredArgsConstructor
 @Slf4j
 @RestController

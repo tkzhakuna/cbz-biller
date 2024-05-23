@@ -526,7 +526,7 @@ public class ZimraService {
                 "        <CHGCOMP>TRANSFER FEE</CHGCOMP>\n" +
                 "        <WAIVER>N</WAIVER>\n" +
                 "        <CHGAMT>1590.00</CHGAMT>\n" +
-                "        <CHGCCY>ZWL</CHGCCY>\n" +
+                "        <CHGCCY>ZiG</CHGCCY>\n" +
                 "        <TXNCODE>CHG</TXNCODE>\n" +
                 "      </Charge-Details>\n" +
                 "      <Charge-Details>\n" +

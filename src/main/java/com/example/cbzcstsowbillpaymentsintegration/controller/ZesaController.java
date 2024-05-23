@@ -3,7 +3,6 @@ package com.example.cbzcstsowbillpaymentsintegration.controller;
 
 import com.example.cbzcstsowbillpaymentsintegration.dtos.requestdto.billersrequestdto.ZesaRequestDTO;
 import com.example.cbzcstsowbillpaymentsintegration.dtos.requestdto.zesarequest.PurchaseTokenRequest;
-import com.example.cbzcstsowbillpaymentsintegration.dtos.responsedto.zesaresponsedto.MeterValidation;
 import com.example.cbzcstsowbillpaymentsintegration.service.ZesaService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import lombok.RequiredArgsConstructor;
@@ -15,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
+@CrossOrigin(origins = "*")
 @Slf4j
 @RequiredArgsConstructor
 @RestController
